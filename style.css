@@ -1,0 +1,100 @@
+body{
+    padding : 0;
+}
+.product-desc li
+{
+    margin-left: 20px;
+    list-style-type: circle;
+}
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+    text-align: center;
+}
+.table td ,.table th
+{
+    vertical-align:middle;
+}
+@media only screen and (max-width: 768px)
+{
+    #logo
+    {
+        margin : auto;
+        width:100px;
+    }
+    .cart-fav-box
+    {
+        justify-content: center;
+    }
+}
+.slider-range
+{
+    margin-right:50px;
+}
+.error{
+    color: red;
+}
+.modal-open
+{
+    overflow: hidden;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.btn-disable
+{
+    position: absolute;
+    width: calc(100% - 40px);
+    top: -70px;
+    left: 20px;
+    right: 20px;
+    visibility:visible;
+    pointer-events: none;
+    opacity: 1;
+}
+.btn-disable .essence-btn
+{
+    background-color: #ffc107;
+    width: 100%;
+}
+
+.essence-btn.disable
+{
+    pointer-events: none;
+    background-color: darkgray;
+}
+
+.checkout-info
+{
+    display: none;
+}
+
+.checkout-paging .pagination
+{
+    margin:auto;
+}
+
+.checkout-paging .pagination .page-item
+{
+    margin:0;
+}
+
+.checkout-paging .pagination .page-item a
+{
+    font-size: 1em;
+    width: 150px;
+}
+.checkout-paging .pagination .page-item .active
+{
+    color: ;
+}
